@@ -45,13 +45,9 @@ function Canciones(cancion, artista, album, duracion) {
     this.duracion = duracion
 }
 
-
-
 const cancion1 = new Canciones('Un coco', 'Bad Bunny', 'Un verano sin ti', '3:17') 
 const cancion2 = new Canciones('TOP 5', 'Duki', 'Temporada de Reaggeton', '2:27') 
 const cancion3 = new Canciones('Coffee Bean', 'Travis Scott', 'ASTROWORLD', '3:30')
-
-const artista = new Canciones 
 
 nombres.push(cancion1)
 nombres.push(cancion2)

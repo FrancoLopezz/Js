@@ -1,6 +1,6 @@
 const nombres = ['Bad Bunny', 'Duki', 'Travis Scott']
 
-function canciones(cancion, artista, album, duracion) {
+function Canciones(cancion, artista, album, duracion) {
     this.cancion = cancion
     this.artista = artista
     this.album = album
