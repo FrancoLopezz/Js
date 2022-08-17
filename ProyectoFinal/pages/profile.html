@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style.css">
 
     <title>Proyecto final</title>
 
@@ -19,43 +21,38 @@
 
             <div>
             
-                <img src="" alt="Imagen del proyecto">
-            
-                <h1> nombre del proyeto </h1>
+                <h1> Bienvenido, completa con tus datos para empezar! </h1>
+
+                <div class="validate">
+                    <form id="formulario" action="">
+                        <input type="text" placeholder="Nombre" value="">
+                        <input type="password" placeholder="Constraseña" value="">
+                        <input class="enviarForm" type="submit" value="Enviar">
+                    </form>
+                    <p class="errorFormulario"></p>
+                </div>
             
             </div>
-            
-            <nav>
-                <ul>
-                    <li>
-                        <a href="../index.html">Inicio</a>
-                    </li>
-                    
-                    <li>
-                        <a href="playlist.html">Playlist</a>
-                    </li>
-
-                    <li>
-                        <a href="aboutus.html">Sobre nosotros</a>
-                    </li>
-
-                    <li>
-                        <a href="profile.html">Mi perfil</a>
-                    </li>
-                </ul>
-            </nav>
 
         </header>
 
-        <main>
-
-
-
-        </main>
-
         <footer>
 
-            
+            <h3>
+                francoalopez03@gmail.com
+            </h3>
+            <h3>
+              ©2022 Derechos reservados
+            </h3>
+  
+            <div class="footerCss">
+              <a href="https://instagram.com/frannco.ariel" target="blank">
+                <img src="../media/img/instagram.png" alt="Logo de Instagram">
+              </a>
+              <a href="https://twitter.com/Franco_Arieel" target="blank">
+                <img src="../media/img/gorjeo.png" alt="Logo de Twitter">
+              </a>
+            </div>
         
         </footer>
 
@@ -64,7 +61,10 @@
     </div>
 
     <!-- Js link -->
-    <script src="js/index.js"></script> 
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="../js/index.js"></script> 
 </body>
 
 </html>

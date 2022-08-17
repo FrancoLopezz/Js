@@ -7,65 +7,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- link CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+
     <title>Proyecto final</title>
 
 </head>
 
-<body>
+<body class="body">
 
     <div class="contenedor">
-
-        <header>
-
+        
+        <header class="containerNav">
+            
             <div>
             
                 <img src="" alt="Imagen del proyecto">
-            
+                
                 <h1> nombre del proyeto </h1>
+                
+            </div>
+
+            <div class="menu">
+                <a class="active" href="#"><span><img src="media/img/home.svg" alt=""></span>Inicio</a>
+                <a href="#"><span><img src="media/img/search.svg" alt=""></span>Buscar</a>
+                <a href="#"><span><img src="media/img/library.svg" alt=""></span>Tu biblioteca</a> <br>
+                <a href="#"><span><img src="media/img/add.svg" alt=""></span>Crear lista</a>
+                <a href="#"><span><img src="media/img/heart.svg" alt=""></span>Canciones que te gustan</a>
+            </div>  
+
+            <section class="imgCancion">
+                
+            </section> 
             
+        </header>
+        
+        <main class="musicList">
+
+            <div class="perfilPrincipal">
+                <div class="perfil">
+                    <div class="userData">
+                        <div class="fecha"></div>
+                    </div>
+                </div>
+                
+                <div class="profileCircle">
+                    <span class="circulo"><img src="media/img/user.svg" alt=""></span>
+                    <span class="nombre"><h1 class="title"></h1></span>
+                    <span><img src="media/img/salir.svg" alt=""></span>
+                </div>
             </div>
             
-            <nav>
-                <ul>
+            <section class="container">
 
-                    <li>
-                        <a href="index.html">Inicio</a>
-                    </li>
-
-                    <li>
-                        <a href="pages/playlist.html">Playlist</a>
-                    </li>
-
-                    <li>
-                        <a href="pages/aboutus.html">Sobre nosotros</a>
-                    </li>
-
-                    <li>
-                        <a href="pages/profile.html">Mi perfil</a>
-                    </li>
-                </ul>
-            </nav>
-
-        </header>
-
-        <main>
-
+                
+        
+            </section>
             
-
         </main>
 
-        <footer>
-
-            
+        <div class="containerArtist">
+            <h2>Listas</h2>
+            <section class="listas">
+                
+            </section>
+        </div>
         
+        <footer>
+          
+            <h3>
+                francoalopez03@gmail.com
+            </h3>
+            <h3>
+              ©2022 Derechos reservados
+            </h3>
+  
+            <div class="footerCss">
+              <a href="https://instagram.com/frannco.ariel" target="blank">
+                <img src="media/img/instagram.png" alt="Logo de Instagram">
+              </a>
+              <a href="https://twitter.com/Franco_Arieel" target="blank">
+                <img src="media/img/gorjeo.png" alt="Logo de Twitter">
+              </a>
+            </div>
+  
         </footer>
 
-
-
+        <div class="banner" id="banner"></div>
+        
+        
     </div>
-
+    
     <!-- Js link -->
     <script src="js/index.js"></script> 
+    
 </body>
 
 </html>
